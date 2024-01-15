@@ -15,7 +15,7 @@ import { WatchedMoviesList } from "./components/WatchedMoviesList";
 export const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
 
-export const KEY = process.env.REACT_APP_MOVIE_API_KEY;
+export const KEY = "c43d9f86";
 
 export default function App() {
   const [query, setQuery] = useState("");
